@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./pokemon-bg.jpg");
+  height: 100vh;
+}
+
+.white-box {
+  color: white;
+  width: 25%;
+  height: 35%;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  text-align: center;
+  background-color: white;
+}
+
+.text {
+  text-align: center;
+  color: black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red;  */
+  height: 100%;
+}
+
+.white-box img {
+  border-radius: 50%;
+}

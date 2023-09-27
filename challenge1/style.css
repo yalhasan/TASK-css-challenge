@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(97, 19, 170);
+}
+
+.center {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+h1.text {
+  text-align: center;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}

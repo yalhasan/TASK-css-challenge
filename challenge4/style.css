@@ -1,15 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Add your code in each class */
 body {
+  background-color: rgb(75, 19, 127);
+  color: white;
 }
+
 .container {
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
 .movie-card {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
 }
+
 .movie-image {
+  width: 250px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
 }
+
 .movie-details-container {
 }
+
 .descriptions {
+  position: absolute;
+  bottom: 0;
 }
 
 /*A gift from us!*/
@@ -27,5 +52,6 @@ body {
     rgba(0, 0, 0, 0) 100%
   );
 }
+
 .movie-title {
 }
